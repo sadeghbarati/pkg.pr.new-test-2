@@ -21,6 +21,6 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - run: pnpx pkg-pr-new publish ./packages/vue-test-asdqwezxc
+      - run: pnpm dlx pkg-pr-new@0.0.4 publish ./packages/vue-test-asdqwezxc
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GITHUB_TOKEN is provided automatically in any repository
