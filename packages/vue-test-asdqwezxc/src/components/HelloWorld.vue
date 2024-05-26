@@ -5,5 +5,5 @@ const props = defineProps<{
 </script>
 
 <template>
-  Heeeey! {{ msg }} xd test
+  Heeeey! {{ msg }} xd test change a bit
 </template>
